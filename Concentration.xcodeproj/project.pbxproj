@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1DE35421C5909700CD1E97 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DE35321C5909700CD1E97 /* Concentration.swift */; };
+		1E1DE35621C60EB100CD1E97 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DE35521C60EB100CD1E97 /* Card.swift */; };
 		1EA5229E21BBD546007E8FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5229D21BBD546007E8FAD /* AppDelegate.swift */; };
 		1EA522A021BBD546007E8FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5229F21BBD546007E8FAD /* ViewController.swift */; };
 		1EA522A321BBD546007E8FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA522A121BBD546007E8FAD /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E1DE35321C5909700CD1E97 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		1E1DE35521C60EB100CD1E97 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		1EA5229A21BBD546007E8FAD /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA5229D21BBD546007E8FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EA5229F21BBD546007E8FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,14 +58,24 @@
 		1EA5229C21BBD546007E8FAD /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				1EA5229D21BBD546007E8FAD /* AppDelegate.swift */,
 				1EA5229F21BBD546007E8FAD /* ViewController.swift */,
 				1EA522A121BBD546007E8FAD /* Main.storyboard */,
-				1EA522A421BBD54D007E8FAD /* Assets.xcassets */,
-				1EA522A621BBD54D007E8FAD /* LaunchScreen.storyboard */,
+				1EA522AF21BBD85B007E8FAD /* Supprtting Files */,
 				1EA522A921BBD54D007E8FAD /* Info.plist */,
+				1E1DE35321C5909700CD1E97 /* Concentration.swift */,
+				1E1DE35521C60EB100CD1E97 /* Card.swift */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		1EA522AF21BBD85B007E8FAD /* Supprtting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5229D21BBD546007E8FAD /* AppDelegate.swift */,
+				1EA522A421BBD54D007E8FAD /* Assets.xcassets */,
+				1EA522A621BBD54D007E8FAD /* LaunchScreen.storyboard */,
+			);
+			path = "Supprtting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			files = (
 				1EA522A021BBD546007E8FAD /* ViewController.swift in Sources */,
 				1EA5229E21BBD546007E8FAD /* AppDelegate.swift in Sources */,
+				1E1DE35421C5909700CD1E97 /* Concentration.swift in Sources */,
+				1E1DE35621C60EB100CD1E97 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +299,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AULHYB573N;
+				DEVELOPMENT_TEAM = 2WTP6CWW36;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.Concentrationsss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +317,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AULHYB573N;
+				DEVELOPMENT_TEAM = 2WTP6CWW36;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.Concentrationsss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
