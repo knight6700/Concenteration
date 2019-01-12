@@ -30,6 +30,13 @@ class ViewController: UIViewController {
         startNewGame()
     }
     
+    override func viewDidLoad() {
+        super .awakeFromNib()
+        startNewGame()
+
+    }
+    
+    
     func updateViewFromModel()  {
         for index in CardButtons.indices {
             let button = CardButtons[index]
